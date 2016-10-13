@@ -52,4 +52,4 @@ scripts: {
 }
 ```
 
-You basically just need to prefix `eslint-if-supported ` to your `eslint` npm script.
+You basically just need to prepend `eslint-if-supported ` to your `eslint` npm script.
