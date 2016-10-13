@@ -1,6 +1,6 @@
 {
   "name": "eslint-if-supported",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run ESLint, standard, or semistandard only if on a supported node version",
   "bin": {
     "eslint-if-supported": "./index.js"
