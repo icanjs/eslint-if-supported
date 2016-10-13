@@ -8,6 +8,11 @@
   "repository": "icanjs/eslint-if-supported",
   "main": "index.js",
   "scripts": {
+    "publish": "git push origin && git push origin --tags",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "release:prerelease": "npm version prerelease && npm publish --tag pegasus",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "marshall@creativeideal.net",
