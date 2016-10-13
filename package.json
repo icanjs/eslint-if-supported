@@ -1,0 +1,15 @@
+{
+  "name": "eslint-if-supported",
+  "version": "1.0.0",
+  "description": "Run ESLint, standard, or semistandard only if on a supported node version",
+  "bin": {
+    "eslint-if-supported": "./index.js"
+  },
+  "repository": "icanjs/eslint-if-supported",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marshall@creativeideal.net",
+  "license": "MIT"
+}
