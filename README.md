@@ -37,7 +37,7 @@ If you have a package.json like this:
 ```
 scripts: {
   "eslint": "semistandard --fix",
-  "mocha": "mocha test/ --compilers js:babel-core/register --recursive",
+  "mocha": "mocha test/",
   "test": "npm run eslint && npm run mocha"
 }
 ```
@@ -47,7 +47,7 @@ Just update it to look like this:
 ```
 scripts: {
   "eslint": "eslint-if-supported semistandard --fix",
-  "mocha": "mocha test/ --compilers js:babel-core/register --recursive",
+  "mocha": "mocha test/",
   "test": "npm run eslint && npm run mocha"
 }
 ```
